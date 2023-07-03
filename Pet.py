@@ -68,3 +68,6 @@ age_entry.pack()
 # Create a button to display the pet information
 submit_button = tk.Button(window, text="Submit", command=display_pet_info)
 submit_button.pack()
+
+# Create an instance to run the main window's event loop
+window.mainloop()
