@@ -29,3 +29,9 @@ def display_pet_info():
     name = name_entry.get()
     animal_type = animal_type_entry.get()
     age = age_entry.get()
+
+    # Create a Pet object and set the information
+    pet = Pet()
+    pet.set_name(name)
+    pet.set_animal_type(animal_type)
+    pet.set_age(age)
