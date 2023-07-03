@@ -1,3 +1,6 @@
+# Import tkinter to retrieve Pet's information
+import tkinter as tk
+
 # Creating the class Pet
 class Pet:
     # Defining the objects for the Pet Class
