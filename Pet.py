@@ -44,3 +44,7 @@ def display_pet_info():
 
     # Display the pet's information in a message box
     messagebox.showinfo("Pet Information", f"Name: {pet.get_name()}\nAnimal Type: {pet.get_animal_type()}\nAge: {pet.get_age()}")
+
+# Create the main window
+window = tk.Tk()
+window.title("Pet Information")
