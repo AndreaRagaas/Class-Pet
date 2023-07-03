@@ -64,3 +64,7 @@ age_label = tk.Label(window, text="Age:")
 age_label.pack()
 age_entry = tk.Entry(window)
 age_entry.pack()
+
+# Create a button to display the pet information
+submit_button = tk.Button(window, text="Submit", command=display_pet_info)
+submit_button.pack()
