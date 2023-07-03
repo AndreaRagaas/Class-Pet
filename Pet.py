@@ -41,3 +41,6 @@ def display_pet_info():
     pet.set_name(name)
     pet.set_animal_type(animal_type)
     pet.set_age(age)
+
+    # Display the pet's information in a message box
+    messagebox.showinfo("Pet Information", f"Name: {pet.get_name()}\nAnimal Type: {pet.get_animal_type()}\nAge: {pet.get_age()}")
