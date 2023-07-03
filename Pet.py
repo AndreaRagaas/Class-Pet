@@ -48,3 +48,19 @@ def display_pet_info():
 # Create the main window
 window = tk.Tk()
 window.title("Pet Information")
+
+# Create labels and entry fields for name, animal type, and age
+name_label = tk.Label(window, text="Name:")
+name_label.pack()
+name_entry = tk.Entry(window)
+name_entry.pack()
+
+animal_type_label = tk.Label(window, text="Animal Type:")
+animal_type_label.pack()
+animal_type_entry = tk.Entry(window)
+animal_type_entry.pack()
+
+age_label = tk.Label(window, text="Age:")
+age_label.pack()
+age_entry = tk.Entry(window)
+age_entry.pack()
