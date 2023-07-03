@@ -23,3 +23,9 @@ class Pet:
 
     def get_age(self):
         return self.__age
+    
+def display_pet_info():
+    # Retrieve the pet information from the entry fields
+    name = name_entry.get()
+    animal_type = animal_type_entry.get()
+    age = age_entry.get()
