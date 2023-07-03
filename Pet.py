@@ -1,6 +1,9 @@
 # Import tkinter to retrieve Pet's information
 import tkinter as tk
 
+# Import messagebox to show Pet's information
+from tkinter import messagebox
+
 # Creating the class Pet
 class Pet:
     # Defining the objects for the Pet Class
